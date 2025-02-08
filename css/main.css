@@ -17,6 +17,9 @@ body a {
     max-width: 1110px;
     padding: 0;
     margin: 0 auto;
+}
+
+section {    
     margin-bottom: 70px;
 }
 
@@ -34,6 +37,7 @@ h1 span {
 
 .header {    
     align-items: center;
+    margin-bottom: 70px;
 }
 
 .header-top {
@@ -191,5 +195,85 @@ h1 span {
     row-gap: 30px;
 }
 
+/* Promo */
 
+.promo-container {
+    height: 574px;
+    color: #F4F6F5;
+    position: relative;
+}
 
+.promo-bg {
+    width: 100%;
+    position: absolute;
+}
+
+.promo-container .container {
+    position: absolute;
+    top: 70px;
+    left: 165px;
+}
+
+.promo-header {
+    max-width: 541px;
+    display: flex;
+    
+    margin-bottom: 20px;
+    column-gap: 20px;
+}
+
+.promo-name {
+    font-size: 40px;
+}
+
+.promo-star {
+    object-fit: contain;
+}
+
+.promo-desc {
+    max-width: 540px;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.promo-button {
+    width: 257px;
+    height: 65px;
+
+    color: #2C2D35;
+
+    background-color: #EEDB6D;
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Team */
+
+.team-group {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.team-right {
+    padding-top: 40px;
+}
+
+.our-team {
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 1.1;
+}
+
+.team-desc {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.team-avatars {
+    margin-bottom: 20px;
+    display: flex;
+    column-gap: 30px;
+}
