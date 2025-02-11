@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+        line-height: 1.0;
+        margin-bottom: 20px;
+    }
+
+    .nav-list {
+        font-size: 18px;
+    }
+
+    .row-img {
+        width: 330px;
+    }
+}

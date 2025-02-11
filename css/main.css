@@ -14,8 +14,8 @@ body a {
 }
 
 .container {
-    max-width: 1110px;
-    padding: 0;
+    max-width: 1188px;
+    padding: 0 39px;
     margin: 0 auto;
 }
 
@@ -52,7 +52,7 @@ h1 span {
 }
 
 .logo {
-    padding: 33px 0 32px 165px;
+    padding: 33px 0 32px 0;
     display: flex;
     align-items: center;
     column-gap: 8px;
@@ -71,7 +71,7 @@ h1 span {
 
 .nav-list {
     display: flex;
-    padding: 38px 165px 38px 0;
+    padding: 38px 0 38px 0;
     column-gap: 60px;
 
     font-size: 20px;
@@ -102,6 +102,10 @@ h1 span {
     color: #598D66;
 
     border: 1px solid #598D66;
+}
+
+.row-img {
+    width: clamp(330px, 37.5vw, 540px);
 }
 
 /* Catalog */
@@ -201,17 +205,12 @@ h1 span {
     height: 574px;
     color: #F4F6F5;
     position: relative;
-}
-
-.promo-bg {
-    width: 100%;
-    position: absolute;
+    background-image: url("../img/promo/pic_background.png");
+    object-fit: contain;
 }
 
 .promo-container .container {
-    position: absolute;
-    top: 70px;
-    left: 165px;
+    padding: 70px 0;
 }
 
 .promo-header {
@@ -276,4 +275,71 @@ h1 span {
     margin-bottom: 20px;
     display: flex;
     column-gap: 30px;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #E1EDE6;
+    padding: 23px 0;
+}
+
+.footer .container {
+    display: flex;
+}
+
+.footer-left {
+    width: 170px;
+    margin-right: 115px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    margin-bottom: 35px;
+}
+
+.number {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.location {
+    font-size: 18px;
+    color: #86928B;
+}
+
+.footer-centre {
+    margin-right: 248px;
+    display: flex;
+    width: 445px;
+    column-gap: 60px;
+}
+
+.footer-centre-category {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.footer-centre-text {
+    font-size: 18px;
+    color: #86928B;
+    margin-bottom: 6px;
+    line-height: 1.5;
+}
+
+
+.footer-social-icons {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 10px;
+}
+
+.footer-right-text {
+    font-size: 12px;
+    line-height: 1.2;
+    margin-bottom: 6px;
+    color: #86928B;
 }
