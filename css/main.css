@@ -116,6 +116,7 @@ h1 span {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    align-items: center;
     margin-bottom: 30px;
 }
 
@@ -204,13 +205,12 @@ h1 span {
 .promo-container {
     height: 574px;
     color: #F4F6F5;
-    position: relative;
     background-image: url("../img/promo/pic_background.png");
     object-fit: contain;
 }
 
 .promo-container .container {
-    padding: 70px 0;
+    padding: 70px 39px;
 }
 
 .promo-header {
@@ -291,7 +291,7 @@ h1 span {
 
 .footer-left {
     width: 170px;
-    margin-right: 115px;
+    margin-right: 8vw;
 }
 
 .footer-logo {
@@ -312,7 +312,6 @@ h1 span {
 }
 
 .footer-centre {
-    margin-right: 248px;
     display: flex;
     width: 445px;
     column-gap: 60px;
@@ -342,4 +341,12 @@ h1 span {
     line-height: 1.2;
     margin-bottom: 6px;
     color: #86928B;
+}
+
+.footer-down {
+    display: none;
+}
+
+.footer-right {
+    margin-left: auto;
 }

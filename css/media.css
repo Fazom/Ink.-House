@@ -12,4 +12,75 @@
     .row-img {
         width: 330px;
     }
+
+    .repro {
+        font-size: 30px;
+    }
+
+    .catalog-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .promo-name {
+        font-size: 30px;
+    }
+
+    
+
+    
+}
+
+@media (max-width: 900px) {
+    .team-group {
+        display: inline;
+    }
+
+    .team-img-left {
+        margin-bottom: 40px;
+    }
+
+    .team-desc {
+        margin-bottom: 30px;
+    }
+
+    /* Footer */
+
+    .footer-left {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+
+    .footer .container {
+        display: inline-block; 
+        width: 100%;
+    }
+
+    .footer-centre {
+        margin-right: 0px;
+    }
+
+    .footer-down {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container > .footer-centre {
+        display: none;
+    }
+
+    .container > .footer-right {
+        display: none;
+    }
+
+    .row-right {
+        padding-top: 35px;
+    }
+
+    .row-desc {
+        margin-bottom: 40px;
+    }
 }
